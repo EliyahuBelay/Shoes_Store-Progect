@@ -1,0 +1,20 @@
+﻿@using big_project_practiceToFinal_test.Models;
+
+<ul>
+    @foreach (Shoes item in Model)
+    {
+        <li>
+            @item.NameCompany
+        </li>
+        <li>
+            @item.NameModel
+        </li>
+        <li>
+            @item.Size
+        </li>
+        <li>
+            @item.Price
+        </li>
+        <li>--------------------------</li>
+    }
+</ul>
